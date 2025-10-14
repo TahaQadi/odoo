@@ -1,0 +1,1774 @@
+{
+  "summary": {
+    "total_tests": 253,
+    "successful": 253,
+    "failed": 0,
+    "success_rate": 100.0,
+    "avg_response_time": 184.44946248486522,
+    "max_response_time": 581.2344640691217
+  },
+  "results": [
+    {
+      "endpoint": "/api/v1/products/",
+      "response_time_ms": 164.02575367010178,
+      "timestamp": "2025-10-14T18:19:42.807882",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/manufacturing/orders",
+      "response_time_ms": 72.32882685402822,
+      "timestamp": "2025-10-14T18:19:42.880333",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/batches/",
+      "response_time_ms": 199.9956464342512,
+      "timestamp": "2025-10-14T18:19:43.080443",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/quality/checks",
+      "response_time_ms": 61.562546079361454,
+      "timestamp": "2025-10-14T18:19:43.142227",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 288.7622174528436,
+      "timestamp": "2025-10-14T18:19:43.431137",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/reports/production/summary",
+      "response_time_ms": 369.5974163428674,
+      "timestamp": "2025-10-14T18:19:43.800874",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/reports/quality/trends",
+      "response_time_ms": 269.4807051733577,
+      "timestamp": "2025-10-14T18:19:44.070501",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/reports/inventory/analysis",
+      "response_time_ms": 316.889599633736,
+      "timestamp": "2025-10-14T18:19:44.387508",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/reports/kpi/dashboard",
+      "response_time_ms": 246.85113322203537,
+      "timestamp": "2025-10-14T18:19:44.634575",
+      "success": true
+    },
+    {
+      "endpoint": "/health",
+      "response_time_ms": 101.41119443163726,
+      "timestamp": "2025-10-14T18:19:44.736099",
+      "success": true
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 1)",
+      "response_time_ms": 237.26526897678838,
+      "timestamp": "2025-10-14T18:19:44.973487",
+      "success": true,
+      "request_id": 1
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 2)",
+      "response_time_ms": 184.33028123866177,
+      "timestamp": "2025-10-14T18:19:45.157995",
+      "success": true,
+      "request_id": 2
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 3)",
+      "response_time_ms": 248.98550738038762,
+      "timestamp": "2025-10-14T18:19:45.407227",
+      "success": true,
+      "request_id": 3
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 4)",
+      "response_time_ms": 241.8231300032518,
+      "timestamp": "2025-10-14T18:19:45.649168",
+      "success": true,
+      "request_id": 4
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 5)",
+      "response_time_ms": 326.25090313784517,
+      "timestamp": "2025-10-14T18:19:45.975535",
+      "success": true,
+      "request_id": 5
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 6)",
+      "response_time_ms": 290.3657063553927,
+      "timestamp": "2025-10-14T18:19:46.266073",
+      "success": true,
+      "request_id": 6
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 7)",
+      "response_time_ms": 345.3278470813692,
+      "timestamp": "2025-10-14T18:19:46.611519",
+      "success": true,
+      "request_id": 7
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 8)",
+      "response_time_ms": 333.8301874322915,
+      "timestamp": "2025-10-14T18:19:46.945543",
+      "success": true,
+      "request_id": 8
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 9)",
+      "response_time_ms": 260.7134027090847,
+      "timestamp": "2025-10-14T18:19:47.206418",
+      "success": true,
+      "request_id": 9
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 10)",
+      "response_time_ms": 367.741104800315,
+      "timestamp": "2025-10-14T18:19:47.574311",
+      "success": true,
+      "request_id": 10
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 11)",
+      "response_time_ms": 319.2591757471662,
+      "timestamp": "2025-10-14T18:19:47.893693",
+      "success": true,
+      "request_id": 11
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 12)",
+      "response_time_ms": 177.33390012627524,
+      "timestamp": "2025-10-14T18:19:48.071142",
+      "success": true,
+      "request_id": 12
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 13)",
+      "response_time_ms": 194.83400606396427,
+      "timestamp": "2025-10-14T18:19:48.266128",
+      "success": true,
+      "request_id": 13
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 14)",
+      "response_time_ms": 466.6590152739833,
+      "timestamp": "2025-10-14T18:19:48.732906",
+      "success": true,
+      "request_id": 14
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 15)",
+      "response_time_ms": 305.8898978338683,
+      "timestamp": "2025-10-14T18:19:49.038908",
+      "success": true,
+      "request_id": 15
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 16)",
+      "response_time_ms": 379.8287279389735,
+      "timestamp": "2025-10-14T18:19:49.418876",
+      "success": true,
+      "request_id": 16
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 17)",
+      "response_time_ms": 437.66345936162435,
+      "timestamp": "2025-10-14T18:19:49.856708",
+      "success": true,
+      "request_id": 17
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 18)",
+      "response_time_ms": 362.32171467167,
+      "timestamp": "2025-10-14T18:19:50.219172",
+      "success": true,
+      "request_id": 18
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 19)",
+      "response_time_ms": 107.6096590365247,
+      "timestamp": "2025-10-14T18:19:50.326925",
+      "success": true,
+      "request_id": 19
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 20)",
+      "response_time_ms": 471.0526477343711,
+      "timestamp": "2025-10-14T18:19:50.798154",
+      "success": true,
+      "request_id": 20
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 21)",
+      "response_time_ms": 491.77660503779,
+      "timestamp": "2025-10-14T18:19:51.290063",
+      "success": true,
+      "request_id": 21
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 22)",
+      "response_time_ms": 367.4189398673765,
+      "timestamp": "2025-10-14T18:19:51.657664",
+      "success": true,
+      "request_id": 22
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 23)",
+      "response_time_ms": 279.3007356272282,
+      "timestamp": "2025-10-14T18:19:51.937111",
+      "success": true,
+      "request_id": 23
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 24)",
+      "response_time_ms": 271.4673536545532,
+      "timestamp": "2025-10-14T18:19:52.208719",
+      "success": true,
+      "request_id": 24
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 25)",
+      "response_time_ms": 195.12849063622764,
+      "timestamp": "2025-10-14T18:19:52.404006",
+      "success": true,
+      "request_id": 25
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 26)",
+      "response_time_ms": 186.58775970432995,
+      "timestamp": "2025-10-14T18:19:52.590781",
+      "success": true,
+      "request_id": 26
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 27)",
+      "response_time_ms": 269.54494642901494,
+      "timestamp": "2025-10-14T18:19:52.860461",
+      "success": true,
+      "request_id": 27
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 28)",
+      "response_time_ms": 352.17078582579074,
+      "timestamp": "2025-10-14T18:19:53.212768",
+      "success": true,
+      "request_id": 28
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 29)",
+      "response_time_ms": 366.4831867719265,
+      "timestamp": "2025-10-14T18:19:53.579390",
+      "success": true,
+      "request_id": 29
+    },
+    {
+      "endpoint": "/api/v1/products/ (POST 30)",
+      "response_time_ms": 357.3108878899302,
+      "timestamp": "2025-10-14T18:19:53.936815",
+      "success": true,
+      "request_id": 30
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 70.7081021139608,
+      "timestamp": "2025-10-14T18:19:54.007687",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 75.98443308329588,
+      "timestamp": "2025-10-14T18:19:54.083791",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 115.15719696215255,
+      "timestamp": "2025-10-14T18:19:54.199154",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 144.86912015782238,
+      "timestamp": "2025-10-14T18:19:54.444311",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 61.024824940621244,
+      "timestamp": "2025-10-14T18:19:54.505472",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 88.63754196526773,
+      "timestamp": "2025-10-14T18:19:54.594243",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 104.01021202607647,
+      "timestamp": "2025-10-14T18:19:54.798490",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 68.23024998894836,
+      "timestamp": "2025-10-14T18:19:54.866840",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 62.193906032355905,
+      "timestamp": "2025-10-14T18:19:54.929151",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 120.27522440171941,
+      "timestamp": "2025-10-14T18:19:55.149697",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 82.23919692280205,
+      "timestamp": "2025-10-14T18:19:55.232139",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 123.58804989733655,
+      "timestamp": "2025-10-14T18:19:55.355885",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 123.65871818246725,
+      "timestamp": "2025-10-14T18:19:55.579898",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 92.57281064928486,
+      "timestamp": "2025-10-14T18:19:55.672661",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 84.19084935121488,
+      "timestamp": "2025-10-14T18:19:55.756971",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 129.45778956203742,
+      "timestamp": "2025-10-14T18:19:55.986822",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 99.2591931950686,
+      "timestamp": "2025-10-14T18:19:56.086191",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 96.37155629626042,
+      "timestamp": "2025-10-14T18:19:56.182672",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 64.9957692241253,
+      "timestamp": "2025-10-14T18:19:56.347944",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 77.1889891106945,
+      "timestamp": "2025-10-14T18:19:56.425255",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 99.59487000820438,
+      "timestamp": "2025-10-14T18:19:56.524962",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 69.74157583087957,
+      "timestamp": "2025-10-14T18:19:56.694902",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 66.25429991786004,
+      "timestamp": "2025-10-14T18:19:56.761260",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 53.40334306974987,
+      "timestamp": "2025-10-14T18:19:56.814794",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 581.2344640691217,
+      "timestamp": "2025-10-14T18:19:57.496227",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 126.59876447378456,
+      "timestamp": "2025-10-14T18:19:57.622932",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 121.96167440027604,
+      "timestamp": "2025-10-14T18:19:57.744998",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 73.46206870606144,
+      "timestamp": "2025-10-14T18:19:57.918650",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 110.48416466679345,
+      "timestamp": "2025-10-14T18:19:58.029334",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 112.73112533265808,
+      "timestamp": "2025-10-14T18:19:58.142187",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 116.03215528492886,
+      "timestamp": "2025-10-14T18:19:58.358584",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 93.6177606461984,
+      "timestamp": "2025-10-14T18:19:58.452330",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 140.48031095107925,
+      "timestamp": "2025-10-14T18:19:58.592917",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 145.5651315804631,
+      "timestamp": "2025-10-14T18:19:58.838787",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 103.68470148038261,
+      "timestamp": "2025-10-14T18:19:58.942588",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 85.14472206828975,
+      "timestamp": "2025-10-14T18:19:59.027875",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 139.6469469955455,
+      "timestamp": "2025-10-14T18:19:59.267727",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 92.46025663160924,
+      "timestamp": "2025-10-14T18:19:59.360419",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 85.02828491639872,
+      "timestamp": "2025-10-14T18:19:59.445563",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 133.8664054202306,
+      "timestamp": "2025-10-14T18:19:59.679660",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 145.29308147491264,
+      "timestamp": "2025-10-14T18:19:59.825067",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 128.81983670420368,
+      "timestamp": "2025-10-14T18:19:59.954000",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 65.37443881071216,
+      "timestamp": "2025-10-14T18:20:00.119579",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 90.76760046235998,
+      "timestamp": "2025-10-14T18:20:00.210490",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 66.4882965202918,
+      "timestamp": "2025-10-14T18:20:00.277112",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 496.611500546582,
+      "timestamp": "2025-10-14T18:20:00.874039",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 65.71391373313416,
+      "timestamp": "2025-10-14T18:20:00.939924",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 82.54755498778364,
+      "timestamp": "2025-10-14T18:20:01.022630",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 353.89698709219596,
+      "timestamp": "2025-10-14T18:20:01.476804",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 52.3726837455799,
+      "timestamp": "2025-10-14T18:20:01.529336",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 115.20644259782235,
+      "timestamp": "2025-10-14T18:20:01.644752",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 57.35975822873718,
+      "timestamp": "2025-10-14T18:20:01.802376",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 60.36369341005611,
+      "timestamp": "2025-10-14T18:20:01.862923",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 110.14774440642054,
+      "timestamp": "2025-10-14T18:20:01.973188",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 73.80271413020482,
+      "timestamp": "2025-10-14T18:20:02.147218",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 110.30204332783987,
+      "timestamp": "2025-10-14T18:20:02.257666",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 83.30250837306025,
+      "timestamp": "2025-10-14T18:20:02.341193",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 52.65380011245874,
+      "timestamp": "2025-10-14T18:20:02.494262",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 52.755388654935146,
+      "timestamp": "2025-10-14T18:20:02.547149",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 60.73425006267411,
+      "timestamp": "2025-10-14T18:20:02.608004",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 84.68406280454212,
+      "timestamp": "2025-10-14T18:20:02.793151",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 113.8108700419634,
+      "timestamp": "2025-10-14T18:20:02.907092",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 143.8896718727296,
+      "timestamp": "2025-10-14T18:20:03.051117",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 130.28940900758343,
+      "timestamp": "2025-10-14T18:20:03.281670",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 132.04241768893388,
+      "timestamp": "2025-10-14T18:20:03.413851",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 69.86777334979487,
+      "timestamp": "2025-10-14T18:20:03.483827",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 131.71295401047718,
+      "timestamp": "2025-10-14T18:20:03.715772",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 105.59314740986966,
+      "timestamp": "2025-10-14T18:20:03.821480",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 577.1068126556108,
+      "timestamp": "2025-10-14T18:20:04.398739",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 525.9775160038615,
+      "timestamp": "2025-10-14T18:20:05.024963",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 63.83112482018376,
+      "timestamp": "2025-10-14T18:20:05.088885",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 61.46733251876637,
+      "timestamp": "2025-10-14T18:20:05.150474",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 110.5050841892537,
+      "timestamp": "2025-10-14T18:20:05.361285",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 99.82171458467904,
+      "timestamp": "2025-10-14T18:20:05.461267",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 85.9109843501819,
+      "timestamp": "2025-10-14T18:20:05.547312",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 50.09214623466558,
+      "timestamp": "2025-10-14T18:20:05.697647",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 78.24785254376712,
+      "timestamp": "2025-10-14T18:20:05.776044",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 94.29629018650212,
+      "timestamp": "2025-10-14T18:20:05.870487",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 95.26058697639898,
+      "timestamp": "2025-10-14T18:20:06.065999",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 117.65143182549586,
+      "timestamp": "2025-10-14T18:20:06.183810",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 69.2757565504592,
+      "timestamp": "2025-10-14T18:20:06.253195",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 137.73035212004072,
+      "timestamp": "2025-10-14T18:20:06.491316",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 427.12846882385656,
+      "timestamp": "2025-10-14T18:20:06.918568",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 98.34035048881837,
+      "timestamp": "2025-10-14T18:20:07.017119",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 128.5523977971568,
+      "timestamp": "2025-10-14T18:20:07.245950",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 537.9404183372491,
+      "timestamp": "2025-10-14T18:20:07.784013",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 137.1890312379904,
+      "timestamp": "2025-10-14T18:20:07.921394",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 101.49471089207339,
+      "timestamp": "2025-10-14T18:20:08.123153",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 105.86842733893464,
+      "timestamp": "2025-10-14T18:20:08.229157",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 392.51390859769225,
+      "timestamp": "2025-10-14T18:20:08.621811",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/dashboard",
+      "response_time_ms": 145.30134184379233,
+      "timestamp": "2025-10-14T18:20:08.867352",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/alerts",
+      "response_time_ms": 128.7308560683981,
+      "timestamp": "2025-10-14T18:20:08.996233",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "/api/v1/monitoring/metrics",
+      "response_time_ms": 112.36097280486034,
+      "timestamp": "2025-10-14T18:20:09.108782",
+      "success": true,
+      "stress_test": true
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 150.3985568191261,
+      "timestamp": "2025-10-14T18:20:09.359457",
+      "success": true,
+      "operation_set": 1
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 269.33663985787985,
+      "timestamp": "2025-10-14T18:20:09.628934",
+      "success": true,
+      "operation_set": 1
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 291.52827474578044,
+      "timestamp": "2025-10-14T18:20:09.920621",
+      "success": true,
+      "operation_set": 1
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 248.55203192271927,
+      "timestamp": "2025-10-14T18:20:10.169306",
+      "success": true,
+      "operation_set": 1
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 135.6501456413252,
+      "timestamp": "2025-10-14T18:20:10.305077",
+      "success": true,
+      "operation_set": 1
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 89.12660707257419,
+      "timestamp": "2025-10-14T18:20:10.394377",
+      "success": true,
+      "operation_set": 1
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 253.88199887984942,
+      "timestamp": "2025-10-14T18:20:10.648421",
+      "success": true,
+      "operation_set": 2
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 101.9042858365605,
+      "timestamp": "2025-10-14T18:20:10.750462",
+      "success": true,
+      "operation_set": 2
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 280.84878833884227,
+      "timestamp": "2025-10-14T18:20:11.031455",
+      "success": true,
+      "operation_set": 2
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 225.80099080085995,
+      "timestamp": "2025-10-14T18:20:11.257379",
+      "success": true,
+      "operation_set": 2
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 273.2833381994055,
+      "timestamp": "2025-10-14T18:20:11.530815",
+      "success": true,
+      "operation_set": 2
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 199.42985746900592,
+      "timestamp": "2025-10-14T18:20:11.730350",
+      "success": true,
+      "operation_set": 2
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 190.2158449027218,
+      "timestamp": "2025-10-14T18:20:11.920784",
+      "success": true,
+      "operation_set": 3
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 176.82755449057146,
+      "timestamp": "2025-10-14T18:20:12.097731",
+      "success": true,
+      "operation_set": 3
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 142.8404333167362,
+      "timestamp": "2025-10-14T18:20:12.240694",
+      "success": true,
+      "operation_set": 3
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 156.12209808050906,
+      "timestamp": "2025-10-14T18:20:12.396923",
+      "success": true,
+      "operation_set": 3
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 258.40326393646797,
+      "timestamp": "2025-10-14T18:20:12.655545",
+      "success": true,
+      "operation_set": 3
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 216.2386381386837,
+      "timestamp": "2025-10-14T18:20:12.872008",
+      "success": true,
+      "operation_set": 3
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 106.86678365111663,
+      "timestamp": "2025-10-14T18:20:12.979046",
+      "success": true,
+      "operation_set": 4
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 135.20921705679814,
+      "timestamp": "2025-10-14T18:20:13.114400",
+      "success": true,
+      "operation_set": 4
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 137.70631834064648,
+      "timestamp": "2025-10-14T18:20:13.252280",
+      "success": true,
+      "operation_set": 4
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 147.36055161341386,
+      "timestamp": "2025-10-14T18:20:13.399779",
+      "success": true,
+      "operation_set": 4
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 299.36946398541687,
+      "timestamp": "2025-10-14T18:20:13.699324",
+      "success": true,
+      "operation_set": 4
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 295.90853602690277,
+      "timestamp": "2025-10-14T18:20:13.995401",
+      "success": true,
+      "operation_set": 4
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 295.55597824536454,
+      "timestamp": "2025-10-14T18:20:14.291214",
+      "success": true,
+      "operation_set": 5
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 231.04655510248358,
+      "timestamp": "2025-10-14T18:20:14.522400",
+      "success": true,
+      "operation_set": 5
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 259.4678485954314,
+      "timestamp": "2025-10-14T18:20:14.782010",
+      "success": true,
+      "operation_set": 5
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 232.7579782035276,
+      "timestamp": "2025-10-14T18:20:15.014941",
+      "success": true,
+      "operation_set": 5
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 92.13284897240626,
+      "timestamp": "2025-10-14T18:20:15.107179",
+      "success": true,
+      "operation_set": 5
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 228.23161151584745,
+      "timestamp": "2025-10-14T18:20:15.335514",
+      "success": true,
+      "operation_set": 5
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 281.738442906354,
+      "timestamp": "2025-10-14T18:20:15.617368",
+      "success": true,
+      "operation_set": 6
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 154.9096818476276,
+      "timestamp": "2025-10-14T18:20:15.772390",
+      "success": true,
+      "operation_set": 6
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 196.0644495059521,
+      "timestamp": "2025-10-14T18:20:15.968597",
+      "success": true,
+      "operation_set": 6
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 144.5925147589569,
+      "timestamp": "2025-10-14T18:20:16.113333",
+      "success": true,
+      "operation_set": 6
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 285.58421322284437,
+      "timestamp": "2025-10-14T18:20:16.399109",
+      "success": true,
+      "operation_set": 6
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 284.5426764593436,
+      "timestamp": "2025-10-14T18:20:16.683772",
+      "success": true,
+      "operation_set": 6
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 83.63594127278671,
+      "timestamp": "2025-10-14T18:20:16.767523",
+      "success": true,
+      "operation_set": 7
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 123.47326062680295,
+      "timestamp": "2025-10-14T18:20:16.891190",
+      "success": true,
+      "operation_set": 7
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 272.2114030840146,
+      "timestamp": "2025-10-14T18:20:17.163521",
+      "success": true,
+      "operation_set": 7
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 200.25939219827796,
+      "timestamp": "2025-10-14T18:20:17.363897",
+      "success": true,
+      "operation_set": 7
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 182.04275973315595,
+      "timestamp": "2025-10-14T18:20:17.546056",
+      "success": true,
+      "operation_set": 7
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 272.5881407609923,
+      "timestamp": "2025-10-14T18:20:17.818766",
+      "success": true,
+      "operation_set": 7
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 161.2919315468649,
+      "timestamp": "2025-10-14T18:20:17.980202",
+      "success": true,
+      "operation_set": 8
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 247.51998808264665,
+      "timestamp": "2025-10-14T18:20:18.227886",
+      "success": true,
+      "operation_set": 8
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 183.66240385593116,
+      "timestamp": "2025-10-14T18:20:18.411696",
+      "success": true,
+      "operation_set": 8
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 293.7896006512981,
+      "timestamp": "2025-10-14T18:20:18.705708",
+      "success": true,
+      "operation_set": 8
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 157.97393496113506,
+      "timestamp": "2025-10-14T18:20:18.863829",
+      "success": true,
+      "operation_set": 8
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 83.95240831498799,
+      "timestamp": "2025-10-14T18:20:18.947917",
+      "success": true,
+      "operation_set": 8
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 139.93999039476324,
+      "timestamp": "2025-10-14T18:20:19.087971",
+      "success": true,
+      "operation_set": 9
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 117.38956799347905,
+      "timestamp": "2025-10-14T18:20:19.205494",
+      "success": true,
+      "operation_set": 9
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 272.2446087992863,
+      "timestamp": "2025-10-14T18:20:19.477909",
+      "success": true,
+      "operation_set": 9
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 117.39658400351288,
+      "timestamp": "2025-10-14T18:20:19.595473",
+      "success": true,
+      "operation_set": 9
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 194.4514541574449,
+      "timestamp": "2025-10-14T18:20:19.790016",
+      "success": true,
+      "operation_set": 9
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 223.38133217655718,
+      "timestamp": "2025-10-14T18:20:20.013591",
+      "success": true,
+      "operation_set": 9
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 291.8977237007906,
+      "timestamp": "2025-10-14T18:20:20.305604",
+      "success": true,
+      "operation_set": 10
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 278.7562386375365,
+      "timestamp": "2025-10-14T18:20:20.584508",
+      "success": true,
+      "operation_set": 10
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 89.84700145731041,
+      "timestamp": "2025-10-14T18:20:20.674586",
+      "success": true,
+      "operation_set": 10
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 91.01168788246264,
+      "timestamp": "2025-10-14T18:20:20.765715",
+      "success": true,
+      "operation_set": 10
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 122.78046064513549,
+      "timestamp": "2025-10-14T18:20:20.888684",
+      "success": true,
+      "operation_set": 10
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 118.04280422956543,
+      "timestamp": "2025-10-14T18:20:21.006863",
+      "success": true,
+      "operation_set": 10
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 205.33551304238574,
+      "timestamp": "2025-10-14T18:20:21.212329",
+      "success": true,
+      "operation_set": 11
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 262.2642739762853,
+      "timestamp": "2025-10-14T18:20:21.474802",
+      "success": true,
+      "operation_set": 11
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 143.38119568457134,
+      "timestamp": "2025-10-14T18:20:21.618304",
+      "success": true,
+      "operation_set": 11
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 275.4278517389984,
+      "timestamp": "2025-10-14T18:20:21.893872",
+      "success": true,
+      "operation_set": 11
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 151.40902518013925,
+      "timestamp": "2025-10-14T18:20:22.045392",
+      "success": true,
+      "operation_set": 11
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 134.9495787427971,
+      "timestamp": "2025-10-14T18:20:22.180460",
+      "success": true,
+      "operation_set": 11
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 96.49854705935232,
+      "timestamp": "2025-10-14T18:20:22.277096",
+      "success": true,
+      "operation_set": 12
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 281.1169985279357,
+      "timestamp": "2025-10-14T18:20:22.558345",
+      "success": true,
+      "operation_set": 12
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 263.6944266737849,
+      "timestamp": "2025-10-14T18:20:22.822170",
+      "success": true,
+      "operation_set": 12
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 167.54633657579188,
+      "timestamp": "2025-10-14T18:20:22.989837",
+      "success": true,
+      "operation_set": 12
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 170.022451862518,
+      "timestamp": "2025-10-14T18:20:23.159988",
+      "success": true,
+      "operation_set": 12
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 182.31873321261827,
+      "timestamp": "2025-10-14T18:20:23.342444",
+      "success": true,
+      "operation_set": 12
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 287.4578006238245,
+      "timestamp": "2025-10-14T18:20:23.630045",
+      "success": true,
+      "operation_set": 13
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 295.73300730156836,
+      "timestamp": "2025-10-14T18:20:23.925936",
+      "success": true,
+      "operation_set": 13
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 139.19096722120514,
+      "timestamp": "2025-10-14T18:20:24.065336",
+      "success": true,
+      "operation_set": 13
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 168.22827029647527,
+      "timestamp": "2025-10-14T18:20:24.233734",
+      "success": true,
+      "operation_set": 13
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 118.25105173419136,
+      "timestamp": "2025-10-14T18:20:24.352128",
+      "success": true,
+      "operation_set": 13
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 138.6946752450286,
+      "timestamp": "2025-10-14T18:20:24.490972",
+      "success": true,
+      "operation_set": 13
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 283.6538318879785,
+      "timestamp": "2025-10-14T18:20:24.774792",
+      "success": true,
+      "operation_set": 14
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 104.87094464476002,
+      "timestamp": "2025-10-14T18:20:24.879811",
+      "success": true,
+      "operation_set": 14
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 150.03402563676252,
+      "timestamp": "2025-10-14T18:20:25.030006",
+      "success": true,
+      "operation_set": 14
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 110.42191325613726,
+      "timestamp": "2025-10-14T18:20:25.140582",
+      "success": true,
+      "operation_set": 14
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 241.0605702091552,
+      "timestamp": "2025-10-14T18:20:25.381858",
+      "success": true,
+      "operation_set": 14
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 146.62112151170982,
+      "timestamp": "2025-10-14T18:20:25.528639",
+      "success": true,
+      "operation_set": 14
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 148.3490409899485,
+      "timestamp": "2025-10-14T18:20:25.677125",
+      "success": true,
+      "operation_set": 15
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 117.8087918379963,
+      "timestamp": "2025-10-14T18:20:25.795091",
+      "success": true,
+      "operation_set": 15
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 271.96535637079427,
+      "timestamp": "2025-10-14T18:20:26.067247",
+      "success": true,
+      "operation_set": 15
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 284.52386166066606,
+      "timestamp": "2025-10-14T18:20:26.351921",
+      "success": true,
+      "operation_set": 15
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 199.10354024813304,
+      "timestamp": "2025-10-14T18:20:26.551262",
+      "success": true,
+      "operation_set": 15
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 244.75663650334585,
+      "timestamp": "2025-10-14T18:20:26.796144",
+      "success": true,
+      "operation_set": 15
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 189.62669803052873,
+      "timestamp": "2025-10-14T18:20:26.985886",
+      "success": true,
+      "operation_set": 16
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 154.80145285952088,
+      "timestamp": "2025-10-14T18:20:27.140807",
+      "success": true,
+      "operation_set": 16
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 273.0857472078145,
+      "timestamp": "2025-10-14T18:20:27.414053",
+      "success": true,
+      "operation_set": 16
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 240.3327262473985,
+      "timestamp": "2025-10-14T18:20:27.654528",
+      "success": true,
+      "operation_set": 16
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 247.90849740612023,
+      "timestamp": "2025-10-14T18:20:27.902595",
+      "success": true,
+      "operation_set": 16
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 252.80976885341363,
+      "timestamp": "2025-10-14T18:20:28.155593",
+      "success": true,
+      "operation_set": 16
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 139.33446396366804,
+      "timestamp": "2025-10-14T18:20:28.295053",
+      "success": true,
+      "operation_set": 17
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 149.76436985442865,
+      "timestamp": "2025-10-14T18:20:28.444966",
+      "success": true,
+      "operation_set": 17
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 217.46439549457023,
+      "timestamp": "2025-10-14T18:20:28.662589",
+      "success": true,
+      "operation_set": 17
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 292.7996489773969,
+      "timestamp": "2025-10-14T18:20:28.955558",
+      "success": true,
+      "operation_set": 17
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 172.41629248491017,
+      "timestamp": "2025-10-14T18:20:29.128135",
+      "success": true,
+      "operation_set": 17
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 124.31955809544064,
+      "timestamp": "2025-10-14T18:20:29.252633",
+      "success": true,
+      "operation_set": 17
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 230.28087150801878,
+      "timestamp": "2025-10-14T18:20:29.483085",
+      "success": true,
+      "operation_set": 18
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 162.51243157877155,
+      "timestamp": "2025-10-14T18:20:29.645786",
+      "success": true,
+      "operation_set": 18
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 105.86370635785879,
+      "timestamp": "2025-10-14T18:20:29.751861",
+      "success": true,
+      "operation_set": 18
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 229.27224269584755,
+      "timestamp": "2025-10-14T18:20:29.981290",
+      "success": true,
+      "operation_set": 18
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 260.9188919882282,
+      "timestamp": "2025-10-14T18:20:30.242367",
+      "success": true,
+      "operation_set": 18
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 142.9439295379874,
+      "timestamp": "2025-10-14T18:20:30.385461",
+      "success": true,
+      "operation_set": 18
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 148.35165187003798,
+      "timestamp": "2025-10-14T18:20:30.533951",
+      "success": true,
+      "operation_set": 19
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 94.59087010297002,
+      "timestamp": "2025-10-14T18:20:30.628701",
+      "success": true,
+      "operation_set": 19
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 236.12721002726175,
+      "timestamp": "2025-10-14T18:20:30.864924",
+      "success": true,
+      "operation_set": 19
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 246.3529792373832,
+      "timestamp": "2025-10-14T18:20:31.111426",
+      "success": true,
+      "operation_set": 19
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 211.58172217840576,
+      "timestamp": "2025-10-14T18:20:31.323138",
+      "success": true,
+      "operation_set": 19
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 112.42057913057096,
+      "timestamp": "2025-10-14T18:20:31.435708",
+      "success": true,
+      "operation_set": 19
+    },
+    {
+      "endpoint": "GET /api/v1/products/",
+      "response_time_ms": 217.1524864924776,
+      "timestamp": "2025-10-14T18:20:31.652993",
+      "success": true,
+      "operation_set": 20
+    },
+    {
+      "endpoint": "GET /api/v1/manufacturing/orders",
+      "response_time_ms": 115.48916657237925,
+      "timestamp": "2025-10-14T18:20:31.768728",
+      "success": true,
+      "operation_set": 20
+    },
+    {
+      "endpoint": "GET /api/v1/batches/",
+      "response_time_ms": 129.34271544922277,
+      "timestamp": "2025-10-14T18:20:31.898187",
+      "success": true,
+      "operation_set": 20
+    },
+    {
+      "endpoint": "GET /api/v1/quality/checks",
+      "response_time_ms": 86.88329518390103,
+      "timestamp": "2025-10-14T18:20:31.985195",
+      "success": true,
+      "operation_set": 20
+    },
+    {
+      "endpoint": "GET /api/v1/monitoring/dashboard",
+      "response_time_ms": 296.2396020159006,
+      "timestamp": "2025-10-14T18:20:32.281583",
+      "success": true,
+      "operation_set": 20
+    },
+    {
+      "endpoint": "GET /api/v1/reports/production/summary",
+      "response_time_ms": 169.27261267004457,
+      "timestamp": "2025-10-14T18:20:32.450972",
+      "success": true,
+      "operation_set": 20
+    }
+  ],
+  "generated_at": "2025-10-14T18:20:33.413174"
+}
