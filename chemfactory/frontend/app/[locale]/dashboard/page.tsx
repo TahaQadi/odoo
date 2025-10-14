@@ -9,6 +9,7 @@ export default function DashboardPage() {
   const tCommon = useTranslations('common')
   const [user, setUser] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
+  const [systemStats, setSystemStats] = useState(null)
 
   useEffect(() => {
     // Check if user is authenticated
@@ -18,15 +19,18 @@ export default function DashboardPage() {
       return
     }
 
-    // Fetch user info
-    fetch('/api/auth/me', {
-      headers: {
-        'Authorization': `Bearer ${token}`
-      }
-    })
-    .then(response => response.json())
-    .then(data => {
-      setUser(data)
+    // Fetch user info and system stats
+    Promise.all([
+      fetch('/api/auth/me', {
+        headers: { 'Authorization': `Bearer ${token}` }
+      }).then(response => response.json()),
+      fetch('/api/v1/dashboard/stats', {
+        headers: { 'Authorization': `Bearer ${token}` }
+      }).then(response => response.json())
+    ])
+    .then(([userData, statsData]) => {
+      setUser(userData)
+      setSystemStats(statsData)
       setIsLoading(false)
     })
     .catch(() => {
@@ -61,8 +65,16 @@ export default function DashboardPage() {
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-                ChemFactory MES/ERP
+                ChemFactory MES/ERP v2.0
               </h1>
+              {systemStats && (
+                <div className="ml-4 flex items-center">
+                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                  <span className="ml-2 text-sm text-gray-600 dark:text-gray-400">
+                    {systemStats.system_status}
+                  </span>
+                </div>
+              )}
             </div>
             <div className="flex items-center space-x-4">
               <span className="text-sm text-gray-700 dark:text-gray-300">
@@ -87,7 +99,7 @@ export default function DashboardPage() {
               Welcome to ChemFactory Dashboard
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400">
-              Your comprehensive MES/ERP solution for chemical manufacturing
+              Your comprehensive AI-powered MES/ERP solution for chemical manufacturing
             </p>
           </div>
           
@@ -181,29 +193,7 @@ export default function DashboardPage() {
               </div>
             </Link>
 
-            <Link href="/inventory" className="group">
-              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 border border-gray-200 dark:border-gray-700">
-                <div className="flex items-center">
-                  <div className="flex-shrink-0">
-                    <div className="w-12 h-12 bg-indigo-500 rounded-lg flex items-center justify-center group-hover:bg-indigo-600 transition-colors">
-                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="ml-4">
-                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 transition-colors">
-                      {t('inventory')}
-                    </h3>
-                    <p className="text-gray-600 dark:text-gray-400 text-sm">
-                      Track stock and warehouse
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            <Link href="/reports" className="group">
+            <Link href="/monitoring" className="group">
               <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 border border-gray-200 dark:border-gray-700">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
@@ -215,6 +205,28 @@ export default function DashboardPage() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-red-600 transition-colors">
+                      Real-time Monitoring
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">
+                      Live production monitoring
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            <Link href="/reports" className="group">
+              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 border border-gray-200 dark:border-gray-700">
+                <div className="flex items-center">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 bg-indigo-500 rounded-lg flex items-center justify-center group-hover:bg-indigo-600 transition-colors">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 transition-colors">
                       {t('reports')}
                     </h3>
                     <p className="text-gray-600 dark:text-gray-400 text-sm">
@@ -224,7 +236,80 @@ export default function DashboardPage() {
                 </div>
               </div>
             </Link>
+
+            <Link href="/ai-dashboard" className="group">
+              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 border border-gray-200 dark:border-gray-700">
+                <div className="flex items-center">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center group-hover:bg-pink-600 transition-colors">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-pink-600 transition-colors">
+                      AI Analytics
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">
+                      AI-powered insights and predictions
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            <Link href="/workflow-designer" className="group">
+              <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition-shadow duration-200 border border-gray-200 dark:border-gray-700">
+                <div className="flex items-center">
+                  <div className="flex-shrink-0">
+                    <div className="w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center group-hover:bg-teal-600 transition-colors">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-teal-600 transition-colors">
+                      Workflow Designer
+                    </h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm">
+                      Design and automate processes
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Link>
           </div>
+
+          {/* System Status */}
+          {systemStats && (
+            <div className="mt-8 bg-white dark:bg-gray-800 shadow rounded-lg p-6">
+              <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-4">
+                System Status
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="flex items-center">
+                  <div className="w-3 h-3 rounded-full bg-green-500 mr-3"></div>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">
+                    API Version: {systemStats.api_version}
+                  </span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-3 h-3 rounded-full bg-green-500 mr-3"></div>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">
+                    Status: {systemStats.system_status}
+                  </span>
+                </div>
+                <div className="flex items-center">
+                  <div className="w-3 h-3 rounded-full bg-blue-500 mr-3"></div>
+                  <span className="text-sm text-gray-600 dark:text-gray-400">
+                    Features: {systemStats.features_available.length} Available
+                  </span>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </main>
     </div>
