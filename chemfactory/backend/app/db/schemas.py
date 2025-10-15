@@ -6,8 +6,7 @@ from .models import ProductType, HazardClass, StorageFlag, BatchStatus, QCStatus
 
 # Base schemas
 class BaseSchema(BaseModel):
-    class Config:
-        from_attributes = True
+    model_config = {"from_attributes": True, "arbitrary_types_allowed": True}
 
 
 # User schemas
