@@ -39,9 +39,9 @@ This is a fully configured Odoo 19.0 ERP (Enterprise Resource Planning) system r
 
 ### Configuration Files
 - `odoo.conf` - Main Odoo configuration file
-  - Database: Replit's built-in PostgreSQL (Neon)
+  - Database connection: Uses Replit environment variables (PGHOST, PGPORT, PGUSER, PGPASSWORD, PGDATABASE)
   - Port: 5000 with proxy mode enabled
-  - Admin password: admin123 (change this!)
+  - Admin password: admin123 (change this in production!)
   
 - `requirements.txt` - Python dependencies
   - Using psycopg2-binary instead of psycopg2 for Replit compatibility
@@ -52,9 +52,10 @@ This is a fully configured Odoo 19.0 ERP (Enterprise Resource Planning) system r
 - `odoo-bin` - Main Odoo executable
 
 ### Database
-- **Type**: PostgreSQL (Neon - Replit's built-in database)
-- **Connection**: Via environment variables (DATABASE_URL, PGHOST, etc.)
-- **SSL Mode**: Required (configured)
+- **Type**: PostgreSQL (Replit's built-in Neon database)
+- **Connection**: Via environment variables (DATABASE_URL, PGHOST, PGPORT, PGUSER, PGPASSWORD, PGDATABASE)
+- **SSL Mode**: Required (Odoo reads from environment variables automatically)
+- **Note**: Database credentials are managed by Replit and never stored in configuration files
 
 ## Important Notes
 
